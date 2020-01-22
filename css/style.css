@@ -1,0 +1,103 @@
+/*ESTILOS GENERALES*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Karla", serif;
+}
+.line-top {
+  width: 150px;
+  color: black;
+  border-width: 2px;
+  border-style: solid;
+}
+/*##################################################CUERPO HTML##################################################*/
+body {
+  margin: auto;
+  /*background: url(../design/desktop-design.jpg);*/
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 2410px;
+}
+/*##################################################SECCION DE ENCABEZADO##################################################*/
+header {
+  position: relative;
+  margin: auto;
+  /*background-color: rgba(255, 255, 0, 0.5);*/
+  height: 80px;
+}
+/*ENCABEZADO - Logotipo de Empresa*/
+.logo {
+  display: inline;
+  position: absolute;
+  top: 30px;
+  left: 170px;
+  /*background-color: RED;*/
+}
+/*ENCABEZADO-CONTENEDOR MENU*/
+.menu {
+  position: absolute;
+  top: 30px;
+  right: 100px;
+  width: 570px;
+  /*background-color: red;*/
+}
+/*MENU LISTA*/
+.elementos-menu li {
+  margin: 0 20px 0 20px;
+  float: left;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+/*MENU LISTA OPCIONES */
+.option {
+  color: #878789;
+}
+.option:hover {
+  color: #2b282f;
+  font-weight: bold;
+}
+
+/*BOTON DEL MENU LISTA*/
+.btn-plans {
+  border-width: 2px;
+  border-style: solid;
+  padding: 9px 28px 9px 28px;
+  color: #2b282f;
+}
+
+.btn-plans:hover {
+  background-color: #2b282f;
+  color: aliceblue;
+}
+
+/*##################################################SECCION DE INICIO##################################################*/
+#inicial {
+  background-color: rgba(0, 255, 0, 0.5);
+  height: 600px;
+}
+
+/*SECCION DE CONTENIDO*/
+#contenido {
+  background-color: rgba(255, 0, 255, 0.5);
+  height: 1330px;
+}
+
+/*SECCIÓN DE PIE DE PÁGINA*/
+footer {
+  background-color: rgba(0, 0, 255, 0.5);
+  height: 400px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
